@@ -1,4 +1,4 @@
-##Cleantech-Solar
+#Cleantech-Solar
 This repository contains Python code to generate a graph illustrating the performance evolution of a photovoltaic (PV) plant over time. The graph includes the following features:
 
 30-day Moving Average Line: The red line on the graph represents the 30-day moving average of the plant's Performance Ratio (PR), showing trends over time.
@@ -21,7 +21,7 @@ Average PR: The graph displays the average PR for the last 7, 30, 60, and 90 day
 **Dependencies:** Ensure you have the necessary Python libraries installed using the command:
    ```bash
 pip install pandas matplotlib numpy
-
+```
 **Code:** The Python code in the repository generates the graph based on the dataset and instructions.
 
 **Customization:** Adjust the code to match your dataset and specific requirements.
