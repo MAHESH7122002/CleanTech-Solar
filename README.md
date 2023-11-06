@@ -1,4 +1,4 @@
-#Cleantech-Solar
+# Cleantech-Solar
 This repository contains Python code to generate a graph illustrating the performance evolution of a photovoltaic (PV) plant over time. The graph includes the following features:
 
 30-day Moving Average Line: The red line on the graph represents the 30-day moving average of the plant's Performance Ratio (PR), showing trends over time.
@@ -15,7 +15,7 @@ Orange: 4 <= GHI < 6
 Brown: GHI >= 6
 Average PR: The graph displays the average PR for the last 7, 30, 60, and 90 days.
 
-##Getting Started
+## Getting Started
 **Dataset:** The provided dataset consists of three columns: Date, PR (Performance Ratio), and GHI (Irradiation).
 
 **Dependencies:** Ensure you have the necessary Python libraries installed using the command:
@@ -26,7 +26,7 @@ pip install pandas matplotlib numpy
 
 **Customization:** Adjust the code to match your dataset and specific requirements.
 
-##Usage
+## Usage
 Clone this repository to your local machine.
 
 Place the dataset (Assignment_Dataset.xlsx) in the same directory as the code.
@@ -35,7 +35,7 @@ Run the Python script using a Python interpreter.
 
 The generated graph will be displayed, illustrating the performance evolution of the PV plant.
 
-##Notes
+## Notes
 The code dynamically calculates the budget line values based on the provided formula and dataset.
 
 The graph may not exactly match the provided example due to slight changes in the data.
